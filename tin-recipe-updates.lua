@@ -168,7 +168,6 @@ if util.me.use_bronze() then
   local fast_i = mods.bzaluminum and "aluminum-plate" or "iron-plate"
   util.replace_some_ingredient("fast-inserter", fast_i, 1, "bronze-plate", 1)
   if mods.Krastorio2 then
-    util.replace_some_ingredient("filter-inserter", fast_i, 1, "bronze-plate", 1)
     util.replace_ingredient("kr-steel-pump", "steel-beam", "bronze-plate", 4)
   end
 
